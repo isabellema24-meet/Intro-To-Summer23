@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fairy ring</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <script>
+        function changeBackgroundColor() {
+            // Change background color of body
+            document.body.style.backgroundColor = "blue";
+        }
+    </script>
+</head>
+<body id="bg1">
+    <h1 id="color1" class="text-center">Fairy rings, a study</h1>
+    <h2 id="color2" class="text-center">Brought to you by Isabelle- the one and only</h2>
+    <img id="picture" src="https://npr.brightspotcdn.com/dims4/default/e092f1f/2147483647/strip/true/crop/1280x859+0+0/resize/880x591!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fwpr%2Ffiles%2F202103%2Ffairy_ring.jpg" alt="Fairy Ring Image">
+    <p id="color3" class="text-center">The name fairy ring comes from an old folk-tale. People once believed that mushrooms growing in a circle followed the path made by fairies dancing in a ring. Fairy rings are found in open grassy places and in forests. In grass, the best known fairy ring fungus has the scientific name Marasmius oreades. The body of this fungus, its mycelium, is underground. It grows outward in a circle. As it grows, the mycelium uses up all of the nutrients in the soil, starving the grass. This is the reason a fairy ring has dead grass over the growing edge of the mycelium. Umbrella-shaped fruiting bodies, called mushrooms, spring up from just behind the outer edge of the mycelium.</p>
+    <div class="text">
+        <ul>
+            <li>you can find more information about these amazing fairy circles in <a href="https://www.usu.edu/herbarium/education/fun-facts-about-fungi/fairy-rings">THIS</a> link</li>
+            <li>choose your favorite fairy so we can get to know you better!</li>
+        </ul>
+    </div>
+    <form>
+        <div class="text">
+            <input id="color4" type="radio" name="fairy"> pixie
+            <input class="text" type="radio" name="fairy"> spunkies
+            <input class="text" type="radio" name="fairy"> sprite
+            <br><br>
+            <label for="fname">
+            	What's your favorite fairy?
+            </label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <button type="button" class="button" onclick="changeBackgroundColor()">Click here to change background color</button>
+        </div>
+    </form>
+</body>
+</html>

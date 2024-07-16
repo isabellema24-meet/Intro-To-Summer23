@@ -1,0 +1,32 @@
+#bg1{
+	background-color: lightblue;
+}
+#picture{
+	height: 300px;
+	width: 450px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+.text-center{
+	text-align: center ;
+}
+.text{
+	color: white;
+}
+#color1{
+	color: white;
+}
+#color2{
+	color: white;
+}
+#color3{
+	color: white;
+}
+#color4{
+	color: white;
+}
+input{
+	color:white;
+}
+
